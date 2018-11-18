@@ -1,0 +1,39 @@
+shape = input("What shape would you like? ")
+shape1=str(shape)
+message = " " 
+
+if shape1 == "triangle":
+    message += ""
+
+    from turtle import *
+
+    forward(100)
+    left(120)
+    forward(100)
+    left(120)
+    forward(100)
+    left(120)
+
+elif shape1 == "square":
+    message += ""
+
+    from turtle import *
+
+    forward(100)
+    right(90)
+    forward(100)
+    right(90)
+    forward(100)
+    right(90)
+    forward(100)
+    right(90)
+
+else:
+    message += " - choose another shape"
+
+
+
+
+print(message)
+print()
+input("Press return to continue ...")
